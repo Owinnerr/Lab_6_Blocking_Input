@@ -5,9 +5,9 @@ public class RectangleInfo {
         Scanner in = new Scanner(System.in);
         double width = 0; // Initialize width variable
         double height = 0; // Initialize height variable
-        double area = 0;
-        double perimeter = 0;
-        double lengthOfDiagonal = 0;
+        double area = 0; // Initialize area variable
+        double perimeter = 0; // Initialize perimeter variable
+        double lengthOfDiagonal = 0; // Initialize diagonal variable
         String trash = ""; // Initialize trash variable
         boolean done1 = false; // Initialize done1 variable and set to false for do while loop
         boolean done2 = false; // Initialize done2 variable and set to false for do while loop

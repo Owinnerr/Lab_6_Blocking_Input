@@ -20,7 +20,7 @@ public class MetricConverter {
                 System.out.println("You said the measurement was " + trash + ", which is not a valid measurement number."); // Output that the user input is not a valid measurement number
                 System.out.println("You have to enter a valid measurement number."); // Output that the user should enter a valid measurement number
             }
-        } while(!done); // Loop: While done variable is false (loop will stop when done is true, or in other words once the user enters a valid measurement number.)
+        } while(!done); // Loop: While done variable is false (loop will stop when done is true, or in other words once the user enters a valid measurement number)
         milesMeasurement = meterMeasurement / 1609.34; // Set the milesMeasurement variable to the meters to miles conversion
         System.out.println("The measurement in miles is " + milesMeasurement); // Output the measurement in miles
         feetMeasurement = meterMeasurement * 3.281; // Set the feetMeasurement variable to the meters to feet conversion

@@ -25,7 +25,7 @@ public class HighorLow {
                 System.out.println("You entered your guess as " + trash + ", which is not a valid number."); // Output that the user input is not a valid number
                 System.out.println("You have to enter a valid number."); // Output that the user should enter a valid number
             }
-        } while(!done); // Loop: While done variable is false (loop will stop when done is true, or in other words once the user enters a valid temp.)
+        } while(!done); // Loop: While done variable is false (loop will stop when done is true, or in other words once the user enters a valid number and in range)
         System.out.println("My random number was " + val); // Output the random number made by the Random class
         if (guess == val) { // Condition: If the guess is equal to the value (the random number)
             System.out.println("Great job! You guessed correctly."); // Output that the user guessed correctly
