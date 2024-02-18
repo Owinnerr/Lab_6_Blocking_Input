@@ -19,7 +19,7 @@ public class CtoFConverter {
                 System.out.println("You have to enter a valid temperature."); // Output that the user should enter a valid temperature
             }
         } while(!done); // Loop: While done variable is false (loop will stop when done is true, or in other words once the user enters a valid temp.)
-        fahrenheitTemperature = 1.8 * (celsiusTemperature) + 32; // Set the variable to the celsius to fahrenheit equation
+        fahrenheitTemperature = 1.8 * (celsiusTemperature) + 32; // Set the fahrenheitTemperature variable to the celsius to fahrenheit equation
         System.out.println("The temperature in fahrenheit is " + fahrenheitTemperature); // Output the temperature in fahrenheit
     }
 }

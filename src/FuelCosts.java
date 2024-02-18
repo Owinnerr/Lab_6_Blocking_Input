@@ -48,9 +48,9 @@ public class FuelCosts {
                 System.out.println("You have to enter a valid number."); // Output that the user should enter a valid number
             }
         } while(!done3); // Loop: While done3 variable is false (loop will stop when done3 is true, or in other words once the user enters a valid number)
-        costPerHundredMiles = priceOfGas * 100.0; // Set the variable to the price of gas multiplied by 100
+        costPerHundredMiles = priceOfGas * 100.0; // Set the costPerHundredMiles variable to the price of gas multiplied by 100
         System.out.println("The cost per 100 miles is $" + costPerHundredMiles); // Output the cost per 100 miles
-        carRangeWithGas = numberOfGallons * fuelEfficiency; // Set the variable to number of gallons multiplied by fuel efficiency
+        carRangeWithGas = numberOfGallons * fuelEfficiency; // Set the carRangeWithGas variable to number of gallons multiplied by fuel efficiency
         System.out.println("The amount of miles the car can go with the gas in the tank is " + carRangeWithGas); // Output the car range using the gas in the tank
     }
 }
